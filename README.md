@@ -4,6 +4,11 @@ The source data for this project are downloaded from the resource:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 The full description of the original dataset is presented in the archive mentioned above.
 
+### The original dataset processing
+
+* Download the ZIP and unzip it to the home dorectory
+* be sure that required in CodeBook files are presented in a working directory
+
 ### The main tasks for this course project are:
 
 * Prepare a tidy dataset which contains only extracted the measurements on the mean and standard deviation for each measurement in combined train + test dataset
