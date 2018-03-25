@@ -68,3 +68,4 @@ avr_df <- dcast(melt_df, activities + subject ~ variable, mean)
 # write the avr_df into csv file
 
 write.csv(avr_df, file = "avr_act_subject.csv")
+write.table(avr_df, file = "avr_act_subject.txt", row.names = FALSE)
